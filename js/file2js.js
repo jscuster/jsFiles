@@ -109,7 +109,6 @@ $("#baseObj").change((function() {
 var bobj = $("#baseObj");
 return function() {
 jsRoot = bobj.val();
-alert(jsRoot);
 }; //inner func
 })()); //baseObj.change
 
